@@ -1,0 +1,132 @@
+/*Task 1 - Logo epam*/
+#logoname{
+	font-family: 'source-sans-pro-regular',sans-serif,helvetica,arial;
+	color: #464547;
+	font-size:150px;
+	font-weight: bold;
+	transform:scaleX(0.5);
+}
+
+#logoname:before{
+	content:'<';
+	color: #39C2D7;
+}
+
+#logoname:after{
+	content:'>';
+	color: #39C2D7;
+}
+
+/*Task 2 - */
+
+main{
+	margin:200px;
+	display:block;
+	justify-content:space-between;
+	align-content:space-between;
+	flex-flow:wrap;
+	border:30px;
+}
+
+figure{
+	position:relative;
+	display:inline-block;
+	font-family:'source sans pro', sans-serif;
+	cursor:pointer;
+	overflow:hidden;
+	text-align: center;
+}
+figcaption{
+	font-weight:bold;
+	display:block;
+	position:absolute;
+	width:100%;
+	top:230px;
+	height:370px;
+	background-color: rgba(0,0,0,.3);
+	color:#fff;
+	text-transform: uppercase;
+}
+figcaption h3{
+	font-size:18px;
+}
+figcaption p{
+	font-size:30px;
+}
+figcaption span{
+	font-size:80px;
+}
+
+figure *{
+	box-sizing:border-box;
+	transition-duration:0.5s;
+}
+
+[href]{
+	color:green;
+}
+figure:hover figcaption{
+	top:-50px;
+}
+.office-info{
+	float:left;
+	position:relative;
+	display:table-cell;
+	width: 92%;
+	border: 1px solid grey;
+	margin-left:40px;
+	background-color: #f7f7f7;
+	height: 434px;
+	/*display: none;*/
+}
+.country-name{
+	margin:5px 0 27px;
+	margin-left:30px;
+	color:#39c2d7;
+	font-family: 'oswald-bold',helvetica,sans-serif,arial;
+    letter-spacing: -0.048rem;
+    font-size: 1.875rem;
+    line-height: 2.375rem;
+    margin-bottom: 14px;
+    text-transform: uppercase;
+}
+.office-name{
+	font-size: 1.25rem;
+    line-height: 1.5rem;
+    font-family: 'source-sans-pro-bold',sans-serif,helvetica,arial;
+    margin-bottom: 16px;
+    margin-left: -24px;
+    padding-left: 24px;
+}
+.address{
+	font-family: 'source-sans-pro-regular',sans-serif,helvetica,arial;
+    font-size: 1rem;
+    line-height: 1.125rem;
+
+}
+body address{
+	width: 20%;
+	padding-left: 55px;
+	float: left;
+	border-right: 1px solid grey;
+}
+#left{
+	border:none;
+}
+.gmaps-link{
+	color:green;
+	font-size: inherit;
+    line-height: inherit;
+    font-family: 'source-sans-pro-bold',sans-serif,helvetica,arial;
+}
+#link_to_expanded_block:not(:target) {
+    display: none;
+}
+#link_to_expanded_block:target {
+    display: inline;
+}
+.close{
+	float:right;
+	text-decoration:none;
+	color:red;
+}
