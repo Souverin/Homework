@@ -1,0 +1,88 @@
+header,p,footer,article,aside,nav,div,section{
+	border:2px solid white;
+	margin:5px;
+	border-radius:10px;
+	box-sizing: border-box;
+}
+body{
+	width:770px;
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:center;
+	color:white;
+	background-color:#42b3f4;
+	font-size:18px;
+	border:2px solid white;
+	border-radius:10px;
+	height:500px;
+}
+header,nav,nav>p,#nav,div>p,aside,article,footer{
+	text-align:center;
+}
+header{
+	height:75px;
+	width:600px;
+}
+.ndblock{
+	border:none;
+	display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    margin-top: -410px;
+}
+nav{
+	justify-content: flex-start;
+	width:150px;
+	height:480px;
+}
+section{
+	display:flex;
+	flex-wrap: wrap;
+	width:450px;
+	height:150px;
+}
+section>p{
+	width:60px;
+	height:50px;
+}
+.articles{
+	border:none;
+	display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    text-align:center;
+}
+aside{
+	width:140px;
+	height:395px;
+}
+#art1{
+	width:220px;
+	height:170px;
+}
+#art2{
+	width:220px;
+	height:170px;
+}
+footer{
+	height:55px;
+	bottom:10px;
+	width:450px;
+}
+/*Been thinking how to make everything in flex for half a day.
+Didn't come up with a better solution than margins*/
+.aside{
+	border:none;
+	display:flex;
+	float: right;
+    margin-top: -410px;
+    margin-left:600px;
+    text-align:center;
+}
+aside, footer, header, article, section p{
+	display:flex;
+	justify-content: center;
+	align-items:center;
+}
