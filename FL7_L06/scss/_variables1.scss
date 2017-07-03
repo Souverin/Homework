@@ -1,0 +1,36 @@
+$bodyFont: normal 12px/18px Arial, Helvetica, sans-serif;
+@mixin briefstyle{
+	float:left;
+	width:26%;
+	padding:20px;
+	margin-right:10px;
+}
+@mixin th{
+	background-color:$bgthcolor;
+	border: 1px solid white;
+}
+$tablewidth:80%;
+$pinkbrown:#DDBC9B;
+$brown:#883D04;
+$white:#FFF;
+$black:#000;
+$pink:#FADCBA;
+$blue:#2D609B;
+$grey:#E0E0E0;
+$bordergrey:#c8ccd1;
+$bgbody:$pinkbrown;
+$bgcontentcolor:$white;
+$bordercolor:$brown;
+$lettercolor:$black;
+$bgbriefcolor:$pink;
+$headingcolor:$brown;
+$linkcolor:$blue;
+$bgthcolor:$grey;
+$bgtablecolor:$white;
+$tablebordercolor:$bordergrey;
+$imgborder:3px solid $bordercolor;
+$imgpadding:5px;
+$imgleftmargin:0 20px 10px 0;
+$headertwostyle:italic;
+$imgrightmargin:20px;
+$captionsize:15px;

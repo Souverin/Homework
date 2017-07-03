@@ -1,0 +1,34 @@
+$bodyFont: normal 15px/20px Georgia, "Times New Roman", Times, serif;
+/*@mixin firsttr{
+	background-color:$bgthcolor;
+}*/
+@mixin briefstyle{
+	padding: 20px;
+    margin-bottom: 20px;
+}
+@mixin th{
+	background-color:$bgthcolor;
+}
+$tablewidth:100%;
+$brightgreen:#659A01;
+$armygreen:#666701;
+$white:#fff;
+$darkgreen:#677D01;
+$yellow:#FFCD10;
+$palegreen:#94A34E;
+$bgbody:$brightgreen;
+$bgcontentcolor:$armygreen;
+$bordercolor:$white;
+$lettercolor:$white;
+$bgbriefcolor:$darkgreen;
+$headingcolor:$yellow;
+$linkcolor:$yellow;
+$bgthcolor:$palegreen;
+$bgtablecolor:$darkgreen;
+$tablebordercolor:$white;
+$imgborder:1px solid $white;
+$imgpadding:7px;
+$imgleftmargin:0 10px 10px 0;
+$imgrightmargin:10px;
+$headertwostyle:none;
+$captionsize:none;

@@ -1,0 +1,65 @@
+body{
+	width:1591px;
+	font:$bodyFont;
+	color:$lettercolor;
+	margin:0 auto;
+	background-color:$bgbody;
+	& #content{
+		background-color: $bgcontentcolor;
+		margin:20px 170px 20px 150px;
+		padding:40px;
+		h1,h2{
+			color:$headingcolor;
+		}
+		h2{
+			font-style:$headertwostyle;
+		}
+		& .img-left{
+			float:left;
+			border:$imgborder;
+			padding:$imgpadding;
+			margin:$imgleftmargin;
+		}
+		& .img-right{
+			float:right;
+			border:$imgborder;
+			padding:$imgpadding;
+			margin-left:$imgrightmargin;
+		}
+		& .brief{
+			background-color:$bgbriefcolor;
+			font-style:italic;
+			@include briefstyle;
+		}
+		a{
+			color:$linkcolor;
+		}
+		table{
+			border-collapse:collapse;
+			width:$tablewidth;
+			caption{
+				font-size:$captionsize;
+				margin-bottom:10px;
+				text-align:right;
+				font-style:italic;
+				margin-right:10px
+			}
+			tr{
+				& ~tr{
+					background-color:$bgtablecolor;
+					border-bottom:1px solid $tablebordercolor;
+					td{
+						padding:10px;
+					}
+				}
+				th{
+					text-align:left;
+					width:auto;
+					padding:10px;
+					font-weight:normal;
+					@include th;
+				}
+			}
+		}
+	}
+}
