@@ -1,0 +1,52 @@
+$blue:   #2A74BF;
+$red:    #D7514C;
+$green:  #4D944B;
+$orange: #D8C11D;
+$grey:   #666;
+$activecolor:$blue;
+$headercolor:$blue;
+$bordercolor:$blue;
+$cardioBgcolor:$red;
+$fitnessBgcolor:$blue;
+$zumbaBgcolor:$orange;
+$bootcampBgcolor:$green;
+$footerbgcolor:$grey;
+h1,h2{
+	font-weight: bold;
+	color:$headercolor;
+}
+.page-header{
+	border-color:$bordercolor;
+}
+.navbar-default .navbar-nav>li>a:active, .navbar-default .navbar-nav>li>a:hover,.navbar-default .navbar-nav>li>a:focus {
+	font-weight:bold;
+	color:white;
+	background-color:$activecolor;
+}
+.thumbnail{
+	border:none;
+	border-radius: 0;
+	padding:1px;
+	.caption{
+		text-align:center;
+		color:white;
+	}
+}
+.cardio{
+	background-color: $cardioBgcolor;
+}
+.fitness{
+	background-color: $fitnessBgcolor;
+}
+.zumba{
+	background-color: $zumbaBgcolor;
+}
+.bootcamp{
+	background-color: $bootcampBgcolor;
+}
+footer{
+	background-color:$footerbgcolor;
+	color:white;
+	padding:10px;
+	margin:0;
+}

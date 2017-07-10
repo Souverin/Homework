@@ -1,0 +1,37 @@
+h1, h2 {
+  font-weight: bold;
+  color: #2A74BF; }
+
+.page-header {
+  border-color: #2A74BF; }
+
+.navbar-default .navbar-nav > li > a:active, .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+  font-weight: bold;
+  color: white;
+  background-color: #2A74BF; }
+
+.thumbnail {
+  border: none;
+  border-radius: 0;
+  padding: 1px; }
+  .thumbnail .caption {
+    text-align: center;
+    color: white; }
+
+.cardio {
+  background-color: #D7514C; }
+
+.fitness {
+  background-color: #2A74BF; }
+
+.zumba {
+  background-color: #D8C11D; }
+
+.bootcamp {
+  background-color: #4D944B; }
+
+footer {
+  background-color: #666;
+  color: white;
+  padding: 10px;
+  margin: 0; }
