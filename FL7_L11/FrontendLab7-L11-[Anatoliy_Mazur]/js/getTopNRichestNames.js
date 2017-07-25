@@ -45,5 +45,5 @@ function getTopNRichestNames(num, obj_arr){
   	    {name: 'Kara', income: '1M'},
   	    {name: 'Zara', income: '2K'}
   ];
-              getTopNRichestNames(2, people); // -> [ 'Dara', 'Bara' ]
-	  getTopNRichestNames(100, people); // -> [ 'Dara', 'Bara', ‘Kara’, ‘Zara’ ]
+console.log(getTopNRichestNames(2, people)); // -> [ 'Dara', 'Bara' ]
+console.log(getTopNRichestNames(100, people)); // -> [ 'Dara', 'Bara', ‘Kara’, ‘Zara’ ]
